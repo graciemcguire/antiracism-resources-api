@@ -18,12 +18,13 @@ class AuthController < ApplicationController
       user_id = token[0]['user_id']
       user = User.find(user_id)
       render json: user
+    end
   end
 
   private
 
   def login_params
-    params.permit(:email, :password)
+    params.permit(:email, :password, :admin)
   end
 
 end
