@@ -29,6 +29,7 @@ resource1 = Resource.create([
   {
     kind: 'podcast',
     approved: true,
+    for_kids: false,
     url: 'https://podcasts.apple.com/us/podcast/parenting-forward/id1403686245?i=1000474951309',
     description:'',
     title: 'Parenting Forward podcast episode ‘Five Pandemic Parenting Lessons with Cindy Wang Brandt’',
@@ -39,6 +40,7 @@ resource1 = Resource.create([
   {
     kind: 'article',
     approved: true,
+    for_kids: false,
     url: 'PBS’s Teaching Your Child About Black History Month',
     description: '',
     title: '',
@@ -49,6 +51,7 @@ resource1 = Resource.create([
   {
     kind: 'article',
     approved: true,
+    for_kids: false,
     url: 'https://www.theatlantic.com/ideas/archive/2020/05/americas-racial-contract-showing/611389/',
     description: '',
     title: '“America’s Racial Contract Is Killing Us” by Adam Serwer | Atlantic (May 8, 2020)',

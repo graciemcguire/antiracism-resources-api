@@ -2,6 +2,7 @@ class CreateResources < ActiveRecord::Migration[6.0]
   def change
     create_table :resources do |t|
       t.string :kind
+      t.boolean :for_kids
       t.boolean :approved
       t.string :url
       t.string :title
