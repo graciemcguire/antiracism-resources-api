@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 2020_06_07_185241) do
     t.string "twitter_link"
     t.string "insta_link"
     t.string "facebook_link"
-    t.integer "added_resource_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -38,8 +37,8 @@ ActiveRecord::Schema.define(version: 2020_06_07_185241) do
   end
 
   create_table "votes", force: :cascade do |t|
-    t.string "user_id"
-    t.string "resource_id"
+    t.integer "user_id"
+    t.integer "resource_id"
     t.string "vote"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
