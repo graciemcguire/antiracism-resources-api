@@ -167,7 +167,7 @@ resource1 = Resource.create([
       approved: true,
       for_kids: false,
       url: 'https://www.netflix.com/watch/81024100?trackId=13752289&tctx=0%2C0%2C6bb0ea34367f6a8156d66424df839689bacd9441%3A0ee1a4baa3ab5c8804b18026b36d152634985814%2C%2C%2C',
-      description: `An estranged couple reunite in a Florida police station to help find their missing teenage son.`,
+      description: '`An estranged couple reunite in a Florida police station to help find their missing teenage son.`',
       title: 'American Son',
       twitter_link: '',
       insta_link: '',
