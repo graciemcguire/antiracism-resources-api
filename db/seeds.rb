@@ -156,7 +156,7 @@ resource1 = Resource.create([
       approved: true,
       for_kids: false,
       url: 'https://www.netflix.com/watch/80091741?trackId=14292320&tctx=0%2C0%2C0b39db48-9a65-410f-a343-922cf4064cc7-232074947%2C20f42b1b-f9c3-4e3c-a11c-a96265607a2a_126401525X19XX1591829797505%2C20f42b1b-f9c3-4e3c-a11c-a96265607a2a_ROOT%2C',
-      description: `The 13th Amendment to the U. S. Constitution abolished slavery. But it also included a provision many people don't know about and that is what this documentary brings to view. "Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist." That exception justifies the use of forced labor as long as the laborer is a convict. This documentary makes the case that inclusion of this loophole is only one of the justifications for continuing domination of people of color. The 13th Amendment was ratified in 1865 and director Ava DuVernay supports her thesis through the use of both historical footage and interviews. Film clips of former President Richard Nixon call for 'Law & Order' which has resulted in exploding prison populations. The U. S. only has 5% of the world's population but has 25% of the world's prisoners. This Law & Order policy enabled government to imprison blacks. John Ehrlichman was Assistant to President Nixon for Domestic Affairs: "Did we know we were lying? Of course we did." The documentary makes the case that those drug busts, Jim Crow laws and segregation are all variations of domination of black America. Currently the 'Prison/Industrial Complex' is just a new version of the same old problem. Here DuVernay returns to the 13th Amendment and makes the case that the system cannot be dealt with by making small changes. The system itself has to be rebuilt.`,
+      description: 'The 13th Amendment to the U. S. Constitution abolished slavery. But it also included a provision many people don\'t know about and that is what this documentary brings to view. "\Neither slavery nor involuntary servitude, except as a punishment for crime whereof the party shall have been duly convicted, shall exist.\" That exception justifies the use of forced labor as long as the laborer is a convict. This documentary makes the case that inclusion of this loophole is only one of the justifications for continuing domination of people of color. The 13th Amendment was ratified in 1865 and director Ava DuVernay supports her thesis through the use of both historical footage and interviews. Film clips of former President Richard Nixon call for \'Law & Order\' which has resulted in exploding prison populations. The U. S. only has 5% of the world\'s population but has 25% of the world\'s prisoners. This Law & Order policy enabled government to imprison blacks. John Ehrlichman was Assistant to President Nixon for Domestic Affairs: "\Did we know we were lying? Of course we did.\" The documentary makes the case that those drug busts, Jim Crow laws and segregation are all variations of domination of black America. Currently the \'\Prison Industrial Complex\' is just a new version of the same old problem. Here DuVernay returns to the 13th Amendment and makes the case that the system cannot be dealt with by making small changes. The system itself has to be rebuilt.',
       title: '13th',
       twitter_link: '',
       insta_link: '',
@@ -167,7 +167,7 @@ resource1 = Resource.create([
       approved: true,
       for_kids: false,
       url: 'https://www.netflix.com/watch/81024100?trackId=13752289&tctx=0%2C0%2C6bb0ea34367f6a8156d66424df839689bacd9441%3A0ee1a4baa3ab5c8804b18026b36d152634985814%2C%2C%2C',
-      description: '`An estranged couple reunite in a Florida police station to help find their missing teenage son.`',
+      description: 'An estranged couple reunite in a Florida police station to help find their missing teenage son.',
       title: 'American Son',
       twitter_link: '',
       insta_link: '',
@@ -194,7 +194,7 @@ resource1 = Resource.create([
       twitter_link: 'https://twitter.com/audrelorde',
       insta_link: 'https://www.instagram.com/audrelordeproject/',
       facebook_link: 'https://www.facebook.com/AudreLordeProject/'
-    },
+    }
     ])
 # Vote.create(user_id: user1.id, resource_id: resource1.id, vote: 'upvote')
 
@@ -266,5 +266,6 @@ resource3 = Resource.create([
     twitter_link: '',
     insta_link: '',
     facebook_link: ''
-  },
+  }
+}
 puts 'all reborn'
