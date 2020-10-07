@@ -324,7 +324,7 @@ articles = Resource.create([
     twitter_link: '',
     insta_link: '',
     facebook_link: ''
-  },
+  }
 
 ])
 puts 'all reborn'
