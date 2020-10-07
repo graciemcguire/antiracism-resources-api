@@ -198,4 +198,73 @@ resource1 = Resource.create([
     ])
 # Vote.create(user_id: user1.id, resource_id: resource1.id, vote: 'upvote')
 
+resource3 = Resource.create([
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: true,
+    url: 'https://www.commonsensemedia.org/lists/coretta-scott-king-book-award-winners',
+    description: 'Please use these books to help you do the work of making the world a safer, more equitable place for all children.',
+    title: "20 Picture Books for 2020: Readings to Embrace Race, Provide Solace & Do Good",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'podcast',
+    approved: true,
+    for_kids: true,
+    url: 'https://www.raisingfreepeople.com/podcast/',
+    description: 'Fare of the Free Child is a weekly-published podcast community centering Black people, Indigenous people, and People of Color in liberatory living and learning practices. With a particular interest in unschooling and the Self-Directed Education movement, Akilah S. Richards and guests discuss the fears and the fares (costs) of raising free black and brown children in a world that tends to diminish, dehumanize, and disappear them.',
+    title: "Fare of the Free Child podcast",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'podcast',
+    approved: true,
+    for_kids: true,
+    url: 'https://integratedschools.simplecast.com/episodes/harvey',
+    description: "What is a healthy racial identity for a White person, and how do we help our White children develop one?  We're joined by Dr. Jennifer Harvey to discuss her book, Raising White Kids: Bringing Up Children in a Racially Unjust America, as well her personal journey towards anti-racist organizing, educating, and child rearing.",
+    title: "Integrated Schools podcast episode “Raising White Kids with Jennifer Harvey”",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'https://www.npr.org/2020/06/03/869071246/how-white-parents-can-talk-to-their-kids-about-race',
+    description: "Most people have heard about 'the talk' — the conversation many African American parents have with their kids about how to avoid altercations with police or what to do and say if they're stopped. The recent unrest sparked by anger over police brutality against African Americans has parents who aren't black thinking more about how they talk to their kids about race.",
+    title: "How White Parents Can Talk To Their Kids About Race | NPR",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'https://www.pbs.org/parents/thrive/teaching-your-child-about-black-history-month',
+    description: "By kindergarten, most children have heard of Dr. Martin Luther King, Jr. They are taught that he, like Mahatma Gandhi, was an advocate for peace and equality.
+
+    However, consider going beyond Dr. King. For example, teach your child about Rosa Parks, the seamstress and civil rights activist whose refusal to give up her bus seat to a white passenger ignited the Montgomery Bus Boycott. Her small act of nonviolent resistance helped to forge the way for transportation desegregation across the nation.",
+    title: "Teaching Your Child About Black History Month | PBS",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'https://www.prettygooddesign.org/blog/Blog%20Post%20Title%20One-5new4',
+    description: "So you’ve realized your kids aren’t too young to talk about race, so now what? We’ve rounded up some resources for you to start.",
+    title: "Your Kids Aren't Too Young to Talk About Race: Resource Roundup from Pretty Good",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
 puts 'all reborn'
