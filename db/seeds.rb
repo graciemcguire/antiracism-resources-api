@@ -15,21 +15,8 @@ p "🔥 all destroyed 🔥"
 user1 = User.create(email: 'whitney@email.com', password: 'aishuia', admin: false )
 
 # Resource.create(title: 'A new resource', added_resource_id: user1.id)
-resource1 = Resource.create([
-  {
-    kind: 'book',
-    approved: true,
-    for_kids: true,
-    url: 'https://www.commonsensemedia.org/lists/coretta-scott-king-book-award-winners',
-    description: '',
-    title: 'Coretta Scott King Book Award Winners: books for children and young adults',
-    twitter_link: '',
-    insta_link: '',
-    facebook_link: ''
-  }])
 
 videos = Resource.create([
-
     {
       kind: 'video',
       approved: true,
@@ -59,28 +46,6 @@ videos = Resource.create([
       url: 'https://youtu.be/e-BY9UEewHw',
       description: 'Peggy McIntosh at TEDxTimberlaneSchools (18:26)',
       title: 'How Studying Privilege Systems Can Strengthen Compassion',
-      twitter_link: '',
-      insta_link: '',
-      facebook_link: ''
-    },
-    {
-      kind: 'book',
-      approved: true,
-      for_kids: false,
-      url: 'https://books.google.com/books/about/Black_Feminist_Thought.html?id=cdtYsU3zR14C',
-      description: 'by Patricia Hill Collins',
-      title: 'Black Feminist Thought',
-      twitter_link: '',
-      insta_link: '',
-      facebook_link: ''
-    },
-    {
-      kind: 'book',
-      approved: true,
-      for_kids: false,
-      url: 'https://read.macmillan.com/lp/eloquent-rage/',
-      description: 'by Dr. Brittney Cooper',
-      title: 'Eloquent Rage: A Black Feminist Discovers Her Superpower',
       twitter_link: '',
       insta_link: '',
       facebook_link: ''
@@ -134,12 +99,12 @@ videos = Resource.create([
 
 kids = Resource.create([
   {
-    kind: 'podcast',
+    kind: 'book',
     approved: true,
     for_kids: true,
-    url: 'https://podcasts.apple.com/us/podcast/parenting-forward/id1403686245?i=1000474951309',
-    description:'',
-    title: 'Parenting Forward podcast episode ‘Five Pandemic Parenting Lessons with Cindy Wang Brandt’',
+    url: 'https://www.commonsensemedia.org/lists/coretta-scott-king-book-award-winners',
+    description: '',
+    title: 'Coretta Scott King Book Award Winners: books for children and young adults',
     twitter_link: '',
     insta_link: '',
     facebook_link: ''
@@ -151,6 +116,17 @@ kids = Resource.create([
     url: 'https://www.commonsensemedia.org/lists/coretta-scott-king-book-award-winners',
     description: 'Please use these books to help you do the work of making the world a safer, more equitable place for all children.',
     title: "20 Picture Books for 2020: Readings to Embrace Race, Provide Solace & Do Good",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'podcast',
+    approved: true,
+    for_kids: true,
+    url: 'https://podcasts.apple.com/us/podcast/parenting-forward/id1403686245?i=1000474951309',
+    description:'',
+    title: 'Parenting Forward podcast episode ‘Five Pandemic Parenting Lessons with Cindy Wang Brandt’',
     twitter_link: '',
     insta_link: '',
     facebook_link: ''
@@ -424,5 +400,85 @@ podcasts = Resource.create([
     insta_link: '',
     facebook_link: ''
   }
+])
+
+books = Resource.create([
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://books.google.com/books/about/Black_Feminist_Thought.html?id=cdtYsU3zR14C',
+    description: 'by Patricia Hill Collins',
+    title: 'Black Feminist Thought',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://read.macmillan.com/lp/eloquent-rage/',
+    description: 'by Dr. Brittney Cooper',
+    title: 'Eloquent Rage: A Black Feminist Discovers Her Superpower',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.kieselaymon.com/heavy',
+    description: 'by Kiese Laymon',
+    title: 'Heavy: An American Memoir',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.ibramxkendi.com/how-to-be-an-antiracist-1',
+    description: 'by Dr. Ibram X. Kendi',
+    title: 'How To Be An Antiracist',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.penguinrandomhouse.com/books/3924/i-know-why-the-caged-bird-sings-by-maya-angelou/',
+    description: 'by Maya Angelou',
+    title: 'I Know Why the Caged Bird Sings',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'http://invisiblenomorebook.com/the-book/',
+    description: 'by Andrea J. Ritchie',
+    title: 'Invisible No More: Police Violence Against Black Women and Women of Color',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://justmercy.eji.org/',
+    description: 'by Bryan Stevenson',
+    title: 'Just Mercy',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
 ])
 puts 'all reborn'
