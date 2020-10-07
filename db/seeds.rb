@@ -267,5 +267,5 @@ resource3 = Resource.create([
     insta_link: '',
     facebook_link: ''
   }
-}
+])
 puts 'all reborn'
