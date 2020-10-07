@@ -37,30 +37,7 @@ resource1 = Resource.create([
     twitter_link: '',
     insta_link: '',
     facebook_link: ''
-  },
-  {
-    kind: 'article',
-    approved: true,
-    for_kids: true,
-    url: 'PBS’s Teaching Your Child About Black History Month',
-    description: '',
-    title: '',
-    twitter_link: '',
-    insta_link: '',
-    facebook_link: ''
-  },
-  {
-    kind: 'article',
-    approved: true,
-    for_kids: true,
-    url: 'https://www.theatlantic.com/ideas/archive/2020/05/americas-racial-contract-showing/611389/',
-    description: '',
-    title: '“America’s Racial Contract Is Killing Us” by Adam Serwer | Atlantic (May 8, 2020)',
-    twitter_link: '',
-    insta_link: '',
-    facebook_link: ''
-  }
-  ])
+  }])
 
   resource2 = Resource.create([
     {
@@ -267,5 +244,87 @@ resource3 = Resource.create([
     insta_link: '',
     facebook_link: ''
   }
+])
+
+
+articles = Resource.create([
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'https://www.commonsensemedia.org/lists/coretta-scott-king-book-award-winners',
+    description: 'Articles from The New York Times Magazine',
+    title: "The 1619 Project",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'http://circuitous.org/scraps/combahee.html',
+    description: 'Articles from The New York Times Magazine',
+    title: "The Genesis of Contemporary Black Feminism",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'https://www.vox.com/the-highlight/2019/5/20/18542843/intersectionality-conservatism-law-race-gender-discrimination',
+    description: 'by Jane Coaston | Vox (May 28, 2019)',
+    title: "The Intersectionality Wars",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'http://convention.myacpa.org/houston2018/wp-content/uploads/2017/11/Guidelines-for-Effective-White-Caucuses.pdf',
+    description: 'Developed by Craig Elliott PhD',
+    title: "Tips for Creating Effective White Caucus Groups",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'https://thebolditalic.com/where-do-i-donate-why-is-the-uprising-violent-should-i-go-protest-5cefeac37ef9',
+    description: 'by Courtney Martin (June 1, 2020)',
+    title: "Where do I donate? Why is the uprising violent? Should I go protest?",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'http://convention.myacpa.org/houston2018/wp-content/uploads/2017/11/UnpackingTheKnapsack.pdf',
+    description: 'by Knapsack Peggy McIntosh',
+    title: "White Privilege: Unpacking the Invisible Knapsack",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'article',
+    approved: true,
+    for_kids: true,
+    url: 'https://www.theatlantic.com/ideas/archive/2020/05/ahmaud-arbery/611539/',
+    description: 'by Dr. Ibram X. Kendi | Atlantic (May 12, 2020)',
+    title: "Who Gets to Be Afraid in America?",
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+
 ])
 puts 'all reborn'
