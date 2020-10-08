@@ -13,6 +13,8 @@ Vote.destroy_all()
 p "🔥 all destroyed 🔥"
 
 user1 = User.create(email: 'whitney@email.com', password: 'aishuia', admin: false )
+user2 = User.create(email: 'annie@annie.com', password: 'annie', admin: true )
+user3 = User.create(email: 'gracie@gracie.com', password: 'gracie', admin: true )
 
 # Resource.create(title: 'A new resource', added_resource_id: user1.id)
 
@@ -64,7 +66,7 @@ articles = Resource.create([
   {
     kind: 'article',
     approved: true,
-    for_kids: true,
+    for_kids: false,
     url: 'https://www.commonsensemedia.org/lists/coretta-scott-king-book-award-winners',
     description: 'Articles from The New York Times Magazine',
     title: "The 1619 Project",
@@ -75,7 +77,7 @@ articles = Resource.create([
   {
     kind: 'article',
     approved: true,
-    for_kids: true,
+    for_kids: false,
     url: 'http://circuitous.org/scraps/combahee.html',
     description: 'Articles from The New York Times Magazine',
     title: "The Genesis of Contemporary Black Feminism",
@@ -86,7 +88,7 @@ articles = Resource.create([
   {
     kind: 'article',
     approved: true,
-    for_kids: true,
+    for_kids: false,
     url: 'https://www.vox.com/the-highlight/2019/5/20/18542843/intersectionality-conservatism-law-race-gender-discrimination',
     description: 'by Jane Coaston | Vox (May 28, 2019)',
     title: "The Intersectionality Wars",
@@ -97,7 +99,7 @@ articles = Resource.create([
   {
     kind: 'article',
     approved: true,
-    for_kids: true,
+    for_kids: false,
     url: 'http://convention.myacpa.org/houston2018/wp-content/uploads/2017/11/Guidelines-for-Effective-White-Caucuses.pdf',
     description: 'Developed by Craig Elliott PhD',
     title: "Tips for Creating Effective White Caucus Groups",
@@ -108,7 +110,7 @@ articles = Resource.create([
   {
     kind: 'article',
     approved: true,
-    for_kids: true,
+    for_kids: false,
     url: 'https://thebolditalic.com/where-do-i-donate-why-is-the-uprising-violent-should-i-go-protest-5cefeac37ef9',
     description: 'by Courtney Martin (June 1, 2020)',
     title: "Where do I donate? Why is the uprising violent? Should I go protest?",
@@ -119,7 +121,7 @@ articles = Resource.create([
   {
     kind: 'article',
     approved: true,
-    for_kids: true,
+    for_kids: false,
     url: 'http://convention.myacpa.org/houston2018/wp-content/uploads/2017/11/UnpackingTheKnapsack.pdf',
     description: 'by Knapsack Peggy McIntosh',
     title: "White Privilege: Unpacking the Invisible Knapsack",
@@ -130,7 +132,7 @@ articles = Resource.create([
   {
     kind: 'article',
     approved: true,
-    for_kids: true,
+    for_kids: false,
     url: 'https://www.theatlantic.com/ideas/archive/2020/05/ahmaud-arbery/611539/',
     description: 'by Dr. Ibram X. Kendi | Atlantic (May 12, 2020)',
     title: "Who Gets to Be Afraid in America?",
@@ -174,7 +176,7 @@ podcasts = Resource.create([
     twitter_link: '',
     insta_link: '',
     facebook_link: ''
-  }
+  },
   {
     kind: 'podcast',
     approved: true,
@@ -288,8 +290,8 @@ books = Resource.create([
     approved: true,
     for_kids: true,
     url: 'https://www.commonsensemedia.org/lists/coretta-scott-king-book-award-winners',
-    description: '',
-    title: 'Coretta Scott King Book Award Winners: books for children and young adults',
+    description: 'Coretta Scott King Book Award Winners',
+    title: 'Books for Children and Young Adults',
     twitter_link: '',
     insta_link: '',
     facebook_link: ''
@@ -378,6 +380,149 @@ books = Resource.create([
     url: 'https://justmercy.eji.org/',
     description: 'by Bryan Stevenson',
     title: 'Just Mercy',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'http://laylafsaad.com/meandwhitesupremacy',
+    description: 'by Layla F. Saad',
+    title: 'Me and White Supremacy',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.jennaarnold.com/book',
+    description: 'by Jenna Arnold',
+    title: 'Raising Our Hands',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.simonandschuster.com/books/Redefining-Realness/Janet-Mock/9781476709130',
+    description: 'by Janet Mock',
+    title: 'Redefining Realness',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.penguinrandomhouse.com/books/198292/sister-outsider-by-audre-lorde/',
+    description: 'by Audre Lorde',
+    title: 'Sister Outsider',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.sealpress.com/titles/ijeoma-oluo/so-you-want-to-talk-about-race/9781580056779/',
+    description: 'by Ijeoma Oluo',
+    title: 'So You Want to Talk About Race',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.penguinrandomhouse.com/books/117662/the-bluest-eye-by-toni-morrison/',
+    description: 'by Toni Morrison',
+    title: 'The Bluest Eye',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.penguinrandomhouse.com/books/7753/the-fire-next-time-by-james-baldwin/9780679744726/teachers-guide/',
+    description: 'by James Baldwin',
+    title: 'The Fire Next Time',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://newjimcrow.com/',
+    description: 'by Michelle Alexander',
+    title: 'The New Jim Crow: Mass Incarceration in the Age of Colorblindness',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.ucpress.edu/book/9780520272590/the-next-american-revolution',
+    description: 'by Grace Lee Boggs',
+    title: 'The Next American Revolution: Sustainable Activism for the Twenty-First Century',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.penguinrandomhouse.com/books/190696/the-warmth-of-other-suns-by-isabel-wilkerson/',
+    description: 'by Isabel Wilkerson',
+    title: 'The Warmth of Other Suns',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.zoranealehurston.com/books/their-eyes-were-watching-god/',
+    description: 'by Zora Neale Hurston',
+    title: 'Their Eyes Were Watching God',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://bookshop.org/books/this-bridge-called-my-back-fourth-edition-writings-by-radical-women-of-color/9781438454382',
+    description: 'by Cherríe Moraga',
+    title: 'This Bridge Called My Back: Writings by Radical Women of Color',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'book',
+    approved: true,
+    for_kids: false,
+    url: 'https://books.google.com/books/about/When_Affirmative_Action_was_White.html?id=cfhneJPcD38C',
+    description: 'by Ira Katznelson',
+    title: 'When Affirmative Action Was White: An Untold History of Racial Inequality in Twentieth-Century America',
     twitter_link: '',
     insta_link: '',
     facebook_link: ''
@@ -474,4 +619,4 @@ orgs = Resource.create([
 
 # Vote.create(user_id: user1.id, resource_id: resource1.id, vote: 'upvote')
 
-puts 'all reborn'
+p '🥰 all reborn 🥰'
