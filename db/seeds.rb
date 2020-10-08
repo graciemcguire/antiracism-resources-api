@@ -143,6 +143,42 @@ articles = Resource.create([
 
 ])
 
+videos = Resource.create([
+  {
+    kind: 'video',
+    approved: true,
+    for_kids: false,
+    url: 'https://youtu.be/eV3nnFheQRo',
+    description: 'By: Barbara Smith, Reina Gossett, Charlene Carruthers (50:48)',
+    title: 'Black Feminism & the Movement for Black Lives',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'video',
+    approved: true,
+    for_kids: false,
+    url: 'https://youtu.be/eV3nnFheQRo',
+    description: 'disscussion on White Fragility by Dr. Robin DiAngelo discusses',
+    title: 'White Fragility',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'video',
+    approved: true,
+    for_kids: false,
+    url: 'https://youtu.be/e-BY9UEewHw',
+    description: 'Peggy McIntosh at TEDxTimberlaneSchools (18:26)',
+    title: 'How Studying Privilege Systems Can Strengthen Compassion',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  }
+  ])
+
 podcasts = Resource.create([
   {
     kind: 'podcast',
@@ -529,41 +565,6 @@ books = Resource.create([
   }
 ])
 
-videos = Resource.create([
-  {
-    kind: 'video',
-    approved: true,
-    for_kids: false,
-    url: 'https://youtu.be/eV3nnFheQRo',
-    description: 'By: Barbara Smith, Reina Gossett, Charlene Carruthers (50:48)',
-    title: 'Black Feminism & the Movement for Black Lives',
-    twitter_link: '',
-    insta_link: '',
-    facebook_link: ''
-  },
-  {
-    kind: 'video',
-    approved: true,
-    for_kids: false,
-    url: 'https://youtu.be/eV3nnFheQRo',
-    description: 'disscussion on White Fragility by Dr. Robin DiAngelo discusses',
-    title: 'White Fragility',
-    twitter_link: '',
-    insta_link: '',
-    facebook_link: ''
-  },
-  {
-    kind: 'video',
-    approved: true,
-    for_kids: false,
-    url: 'https://youtu.be/e-BY9UEewHw',
-    description: 'Peggy McIntosh at TEDxTimberlaneSchools (18:26)',
-    title: 'How Studying Privilege Systems Can Strengthen Compassion',
-    twitter_link: '',
-    insta_link: '',
-    facebook_link: ''
-  }
-  ])
 
 movies = Resource.create([
   {
@@ -587,8 +588,161 @@ movies = Resource.create([
     twitter_link: '',
     insta_link: '',
     facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.pbs.org/independentlens/films/black-power-mixtape-1967-1975/',
+    description: 'The Black Power Mixtape 1967–1975 is a 2011 documentary film, directed by Göran Olsson, that examines the evolution of the Black Power movement in American society from 1967 to 1975 as viewed through Swedish journalists and filmmakers.',
+    title: 'Black Power Mixtape: 1967-1975',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.youtube.com/watch?v=YKd4whvl6J0',
+    description: 'Collin must make it through his final three days of probation for a chance at a new beginning in his Oakland, Calif., neighborhood. His bond with his volatile best friend soon gets tested when Collin sees a police officer shoot a suspect in the back during a chase through the streets.',
+    title: 'Blindspotting',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.hulu.com/watch/450032e9-7499-4abf-83a2-6094a50f69fa',
+    description: 'Bernadine Williams is a prison warden who, over the years, has been drifting away from her husband while dutifully carrying out executions in a maximum security prison. When she strikes up a unique bond with death-row inmate Anthony Woods, a layer of emotional skin is peeled back, forcing Bernadine to confront the complex-and often contradictory-relationship between good intentions, unrequited desires, and what it means to be sanctioned to kill.',
+    title: 'Clemency',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.netflix.com/search?q=dear%20white%20people&jbv=80095698',
+    description: "Based on the acclaimed film of the same name, this Netflix-original series follows a group of students of color at Winchester University, a predominantly white Ivy League college. The students are faced with a landscape of cultural bias, social injustice, misguided activism and slippery politics. Through an absurdist lens, the series uses irony, self-deprecation, brutal honesty and humor to highlight issues that still plague today's 'post-racial' society. Creator Justin Simien serves as an executive producer.",
+    title: 'Dear White People',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.youtube.com/watch?v=obaQS9K94iM',
+    description: "Though he once spent time in San Quentin, 22-year-old black man Oscar Grant (Michael B. Jordan) is now trying hard to live a clean life and support his girlfriend (Melonie Diaz) and young daughter (Ariana Neal). Flashbacks reveal the last day in Oscar's life, in which he accompanied his family and friends to San Francisco to watch fireworks on New Year's Eve, and, on the way back home, became swept up in an altercation with police that ended in tragedy. Based on a true story.",
+    title: 'Fruitvale Station',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.netflix.com/watch/80144402?source=35',
+    description: "In 1979, James Baldwin wrote a letter to his literary agent describing his next project, "Remember This House." The book was to be a revolutionary, personal account of the lives and assassinations of three of his close friends: Medgar Evers, Malcolm X and Martin Luther King, Jr. At the time of Baldwin's death in 1987, he left behind only 30 completed pages of this manuscript. Filmmaker Raoul Peck envisions the book James Baldwin never finished.",
+    title: 'I Am Not Your Negro',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.hulu.com/watch/a862614d-c49e-4208-b934-1476963896fe',
+    description: "In early 1970s Harlem, daughter and wife-to-be Tish vividly recalls the passion, respect and trust that have connected her and her artist fiancé Alonzo Hunt, who goes by the nickname Fonny. Friends since childhood, the devoted couple dream of a future together, but their plans are derailed when Fonny is arrested for a crime he did not commit.",
+    title: 'If Beale Street Could Talk',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://play.hbomax.com/feature/urn:hbo:feature:GXxcJRAyVPMNqwwEAAAAL?camp=googleHBOMAX',
+    description: "After graduating from Harvard, Bryan Stevenson heads to Alabama to defend those wrongly condemned or those not afforded proper representation. One of his first cases is that of Walter McMillian, who is sentenced to die in 1987 for the murder of an 18-year-old girl, despite evidence proving his innocence. In the years that follow, Stevenson encounters racism and legal and political maneuverings as he tirelessly fights for McMillian's life.",
+    title: 'Just Mercy',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://play.hbomax.com/feature/urn:hbo:feature:GWoShDAvS-8LCNAEAAAF1?camp=googleHBOMAX',
+    description: "A portrait of Martin Luther King Jr. during the last years of his life, from his part in the Voting Rights Act of 1965 to his assassination in 1968.",
+    title: 'King In The Wilderness',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.netflix.com/watch/80216758?source=35',
+    description: "Two teenage science prodigies spend every spare minute working on their latest homemade invention: backpacks that enable time travel. When one of their older brothers is killed, they put their unfinished project to the test to save him.",
+    title: 'See You Yesterday',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.hulu.com/watch/62335705-af54-4f06-a366-4c168d17ba63',
+    description: "Although the Civil Rights Act of 1964 legally desegregated the South, discrimination was still rampant in certain areas, making it very difficult for blacks to register to vote. In 1965, an Alabama city became the battleground in the fight for suffrage. Despite violent opposition, Dr. Martin Luther King Jr. (David Oyelowo) and his followers pressed forward on an epic march from Selma to Montgomery, and their efforts culminated in President Lyndon Johnson signing the Voting Rights Act of 1965.",
+    title: 'Selma',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.amazon.com/gp/video/detail/amzn1.dv.gti.3cb9d48d-a119-e985-9f37-95f50652d8f2?autoplay=1&ref_=atv_cf_strg_wb',
+    description: "Filmmaker Stanley Nelson examines the rise of the Black Panther Party in the 1960s and its impact on civil rights and American culture.",
+    title: 'The Black Panthers: Vanguard of the Revolution',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.youtube.com/watch?v=NXy0H-EZR5s',
+    description: "Starr Carter is constantly switching between two worlds -- the poor, mostly black neighborhood where she lives and the wealthy, mostly white prep school that she attends. The uneasy balance between these worlds is soon shattered when she witnesses the fatal shooting of her childhood best friend at the hands of a police officer. Facing pressure from all sides of the community, Starr must find her voice and decide to stand up for what's right.",
+    title: 'The Hate U Give',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
+  },
+  {
+    kind: 'Movie',
+    approved: true,
+    for_kids: false,
+    url: 'https://www.netflix.com/title/80200549',
+    description: "Starr Carter is constantly switching between two worlds -- the poor, mostly black neighborhood where she lives and the wealthy, mostly white prep school that she attends. The uneasy balance between these worlds is soon shattered when she witnesses the fatal shooting of her childhood best friend at the hands of a police officer. Facing pressure from all sides of the community, Starr must find her voice and decide to stand up for what's right.",
+    title: 'When They See Us',
+    twitter_link: '',
+    insta_link: '',
+    facebook_link: ''
   }
-
 ])
 
 orgs = Resource.create([
