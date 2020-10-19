@@ -568,7 +568,7 @@ books = Resource.create([
 
 movies = Resource.create([
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.netflix.com/watch/80091741?trackId=14292320&tctx=0%2C0%2C0b39db48-9a65-410f-a343-922cf4064cc7-232074947%2C20f42b1b-f9c3-4e3c-a11c-a96265607a2a_126401525X19XX1591829797505%2C20f42b1b-f9c3-4e3c-a11c-a96265607a2a_ROOT%2C',
@@ -579,7 +579,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.netflix.com/watch/81024100?trackId=13752289&tctx=0%2C0%2C6bb0ea34367f6a8156d66424df839689bacd9441%3A0ee1a4baa3ab5c8804b18026b36d152634985814%2C%2C%2C',
@@ -590,7 +590,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.pbs.org/independentlens/films/black-power-mixtape-1967-1975/',
@@ -601,7 +601,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.youtube.com/watch?v=YKd4whvl6J0',
@@ -612,7 +612,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.hulu.com/watch/450032e9-7499-4abf-83a2-6094a50f69fa',
@@ -623,7 +623,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.netflix.com/search?q=dear%20white%20people&jbv=80095698',
@@ -634,7 +634,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.youtube.com/watch?v=obaQS9K94iM',
@@ -645,7 +645,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.netflix.com/watch/80144402?source=35',
@@ -656,7 +656,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.hulu.com/watch/a862614d-c49e-4208-b934-1476963896fe',
@@ -667,7 +667,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://play.hbomax.com/feature/urn:hbo:feature:GXxcJRAyVPMNqwwEAAAAL?camp=googleHBOMAX',
@@ -678,7 +678,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://play.hbomax.com/feature/urn:hbo:feature:GWoShDAvS-8LCNAEAAAF1?camp=googleHBOMAX',
@@ -689,7 +689,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.netflix.com/watch/80216758?source=35',
@@ -700,7 +700,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.hulu.com/watch/62335705-af54-4f06-a366-4c168d17ba63',
@@ -711,7 +711,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.amazon.com/gp/video/detail/amzn1.dv.gti.3cb9d48d-a119-e985-9f37-95f50652d8f2?autoplay=1&ref_=atv_cf_strg_wb',
@@ -722,7 +722,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.youtube.com/watch?v=NXy0H-EZR5s',
@@ -733,7 +733,7 @@ movies = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Movie',
+    kind: 'movie',
     approved: true,
     for_kids: false,
     url: 'https://www.netflix.com/title/80200549',
@@ -747,7 +747,7 @@ movies = Resource.create([
 
 orgs = Resource.create([
   {
-    kind: 'Organization',
+    kind: 'organization',
     approved: true,
     for_kids: false,
     url: '',
@@ -758,7 +758,7 @@ orgs = Resource.create([
     facebook_link: ''
   },
   {
-    kind: 'Organization',
+    kind: 'organization',
     approved: true,
     for_kids: false,
     url: '',
