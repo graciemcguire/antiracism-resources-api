@@ -38,6 +38,22 @@ class VotesController < ApplicationController
     @vote.destroy
   end
 
+  def upvotes
+    @votes = Vote.all
+    resource_all_votes = @votes.where(resource_id: params[:resource_id])
+    @resources_all_upvotes = resource_all_votes.where(vote_type: 'upvote').count
+
+    render json: @resources_all_upvotes
+  end
+
+  def downvotes
+    @votes = Vote.all
+    resource_all_votes = @votes.where(resource_id: params[:resource_id])
+    @resources_all_downvotes = resource_all_votes.where(vote_type: 'downvote').count
+
+    render json: @resources_all_downvotes
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_vote
@@ -46,6 +62,6 @@ class VotesController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def vote_params
-      params.require(:vote).permit(:user_id, :resource_id, :vote)
+      params.require(:vote).permit(:user_id, :resource_id, :vote_type)
     end
 end
