@@ -54,6 +54,15 @@ class VotesController < ApplicationController
     render json: @resources_all_downvotes
   end
 
+  # def has_already_voted?
+    # create a method that will check if a user has voted on a resource
+    # returns true or false if the user has voted 
+
+    # if they have voted, and the vote is different than the original vote
+    # PATCH the vote_type
+    # if the user tries to make the same vote, dont do it!
+  # end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_vote
