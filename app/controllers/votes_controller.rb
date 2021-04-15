@@ -50,7 +50,7 @@ class VotesController < ApplicationController
     @votes = Vote.all
     resource_all_votes = @votes.where(resource_id: params[:resource_id])
     @resources_all_downvotes = resource_all_votes.where(vote_type: 'downvote').count
-
+    # byebug
     render json: @resources_all_downvotes
   end
 
